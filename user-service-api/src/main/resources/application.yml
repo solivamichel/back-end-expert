@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: 'user-service-api'
+  data:
+    mongodb:
+      uri: 'mongodb+srv://help-desk-user:help-desk-user@helpdesk.mkxek.mongodb.net/helpdeskdb?retryWrites=true&w=majority&appName=helpdesk'
+      auto-index-creation: true
+springdoc:
+  openapi:
+    title: 'User Service API'
+    description: 'User Service API for Help Desk Application'
+    version: '1.0.0'
